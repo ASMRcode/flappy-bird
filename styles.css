@@ -1,0 +1,23 @@
+body {
+    background-color: #000;
+}
+
+canvas {
+	display: block;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+  right: 0;
+}
+
+iframe {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
